@@ -315,7 +315,7 @@ section{
 	}
 
 	h2{
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 
 	#interface{
@@ -408,13 +408,13 @@ section{
 	.contato{
 		width: 35%;
 		padding: 5% 5%;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	.sobre{
 		width: 65%;
 		padding: 5% 5%;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	.rodape{
