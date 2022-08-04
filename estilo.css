@@ -343,7 +343,7 @@ section{
 	.cabecalho h1{
 		font-size: 1.3em;
 		text-align: center;
-		padding: 150px 10px 10px 0px;
+		padding: 250px 10px 10px 0px;
 	}
 
 	.cabecalho p{
@@ -427,11 +427,11 @@ section{
 		padding-bottom: 10px;
 		height: auto;
 		background-size: cover;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 	
 	.rodape p{
-		font-size: 0.8em;
+		font-size: 0.9em;
 		text-align: right;
 		padding-bottom: 20px;
 	}
