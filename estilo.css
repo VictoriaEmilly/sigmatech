@@ -1,0 +1,439 @@
+@charset "UTF8";
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	color: rgba(0,0,0,.8);
+	max-width: 5750px;
+	max-height: 2352px;
+	overflow-x: hidden;
+}
+
+#interface{
+	width: auto;
+	margin: auto;
+	font-size: 20px;
+}
+
+h2{
+	font-size: 1.3em;
+}
+
+.cabecalho{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	background: #1C1C1C;
+	padding: 50px 20px 80px 20px;
+	background-image: url(https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg);
+    background-position: top;
+	opacity: 0.9;
+	height: 35%;
+	background-size: cover;
+}
+
+.cabecalho h1{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.cabecalho p{
+	color: #ffffff;
+	text-align: center;
+	width: 80%;
+	padding-bottom: 30px;
+	font-size: 1em;
+}
+
+.btn {
+	text-decoration: none;
+    height: 50px;
+    width: 150px;
+    background: #1c1c1c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 1em; 
+}
+
+.btn:hover {
+    background-color: #808080;
+    transition: 1s;
+}
+
+p{
+	text-align: justify;
+	text-indent: 0px;
+	font-size: 1em;
+}
+
+a{
+	color: #1E90FF;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+section{
+	text-align: center;
+}
+
+#secao-a{
+	padding: 60px 0px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+}
+
+.secao-a-p{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+
+#secao-a .esquerda{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	text-align: left;
+}
+
+#secao-a .direita{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	text-align: left;
+}
+
+#secao-b{
+	background-color: #606060;
+	padding-top: 20px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	flex-wrap: wrap;
+}
+
+#saiba-mais{
+	display: block;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#saiba-mais li {
+    display: inline-block;
+    margin: 20px;  
+   	color: rgba(0,0,0,.8);
+    background-color: #ffffff;  
+    padding-bottom: 30px;
+}
+
+#saiba-mais img{
+	width: 324px;
+	height: auto;
+	padding: -20px;
+}
+
+#saiba-mais li h3{
+	padding-top: 20px;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+#saiba-mais li p{
+	width: 240px;
+	padding: 20px 35px;
+	text-indent: 0px;
+	text-align: center;
+}
+
+#secao-c{
+	padding: 80px 0px;	
+}
+
+#secao-c p{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+#secao-d{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	height: auto;
+	width: 100%;
+}
+
+#secao-d h2{
+	padding: 5%;
+}
+
+#secao-d p{
+	padding-top:5%;
+}
+
+#email{
+	padding-top: 8%;
+}
+
+.contato{
+	color: #ffffff;
+	vertical-align: top;
+	background-color: #4682B4;
+	width: 50%;
+	padding: 3% 5%;
+}
+
+.sobre{
+	text-align: center;
+	color: #ffffff;
+	background-color: #606060;
+	width: 50%;
+	padding: 3% 5%;
+}
+
+.rodape{
+	display: block;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;	
+	padding-top: 30px;
+	padding-bottom: 10px;
+	height: auto;
+	background-size: cover;
+}
+
+.rodape p{
+	font-size: 0.8em;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+.redes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+	gap: 2%;
+}
+  
+@media screen and (max-width: 760px) {
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		overflow-x: hidden;
+	}
+
+	#interface{
+		width: auto;
+		margin: auto;
+		font-size: 20px;
+	}
+
+	
+	#secao-b{
+		background-color: #606060;
+		padding-top: 10px 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		flex-wrap: nowrap;	
+	}
+
+	#saiba-mais{
+		width: 100%;
+	}
+
+	#saiba-mais img{
+		width: 186px;
+		height: auto;
+	}
+
+	#saiba-mais li{
+		width: 186px;
+		height: auto;
+	}
+	
+	#saiba-mais li p{
+		padding: 30px 10px;
+		text-align: center;
+		width: 162px;
+	}
+
+	#secao-c{
+		padding: 30px 10px;	
+	}
+
+
+}
+
+@media (min-width:320px) and (max-width:600px){
+	
+	html{
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		margin: 0;
+		flex-direction: column;
+		overflow-x: hidden;
+		
+	}
+
+	h2{
+		font-size: 1em;
+	}
+
+	#interface{
+		width: 100%;
+		font-size: 17px;
+		overflow-x: hidden;
+	}
+
+	.cabecalho,#secao-a,#saiba-mais, #secao-c{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		overflow-x: hidden;
+	}
+
+	.cabecalho{
+		padding: 50% 0 0 0;
+		width: 100%;
+		height: 15%;
+		padding-top: 50%;
+	}
+
+	.cabecalho h1{
+		font-size: 1.3em;
+		text-align: center;
+		padding: 0px 10px 20px 0px;
+	}
+
+	.cabecalho p{
+		font-size: 0.9em;
+	}
+
+	.btn{
+		height: 40px;
+    	width: 80px;
+		font-size: 0.9em;
+	}
+	
+
+	#secao-a, #secao-c{
+		padding: 10% 15%;
+	}
+
+	#secao-a .esquerda{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#secao-a .direita{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		text-align: center;
+	}
+
+	#saiba-mais img{
+		width: 214px;
+		height: auto;
+	}
+
+	#saiba-mais li{
+		width: 214px;
+		height: auto;
+		text-align: center;
+	}
+	
+	#saiba-mais li p{
+		padding: 5px 10px;
+		width: 172px;
+	}
+	
+	#secao-d{
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		height: auto;
+		width: 100%;
+	}
+
+	#secao-d p{
+		text-align: center;
+	}
+
+	.contato{
+		width: 35%;
+		padding: 5% 5%;
+		font-size: 0.8em;
+	}
+
+	.sobre{
+		width: 65%;
+		padding: 5% 5%;
+		font-size: 0.8em;
+	}
+
+	.rodape{
+		display: flex;
+		text-align: center;	
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		height: auto;
+		background-size: cover;
+		font-size: 0.8em;
+	}
+	
+	.rodape p{
+		font-size: 0.8em;
+		text-align: right;
+		padding-bottom: 20px;
+	}
+
+}
