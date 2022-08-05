@@ -56,13 +56,13 @@ h2{
 }
 
 .btn {
-	text-decoration: none;
-    height: 50px;
-    width: 150px;
-    background: #1c1c1c;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    font-size: 1em; 
+    	text-decoration: none;
+    	height: 50px;
+    	width: 150px;
+    	background: #1c1c1c;
+    	color: #ffffff;
+    	border: 1px solid #ffffff;
+    	font-size: 1em; 
 }
 
 .btn:hover {
@@ -344,7 +344,7 @@ section{
 	.cabecalho h1{
 		font-size: 1.3em;
 		text-align: center;
-		padding: 250px 10px 10px 0px;
+		padding: 300px 10px 10px 0px;
 	}
 
 	.cabecalho p{
