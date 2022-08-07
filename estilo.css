@@ -299,7 +299,6 @@ section{
 @media (min-width:320px) and (max-width:600px){
 	
 	html{
-		overflow-x: hidden;
 		margin: 0;
 		padding: 0;
 	}
@@ -312,7 +311,6 @@ section{
 		margin: 0;
 		flex-direction: column;
 		overflow-x: hidden;
-		
 	}
 
 	h2{
