@@ -84,6 +84,7 @@ a{
 
 section{
 	text-align: center;
+	overflow-y: hidden;
 }
 
 #secao-a{
@@ -297,11 +298,6 @@ section{
 
 @media (min-width:320px) and (max-width:600px){
 	
-	html{
-		overflow-x: hidden;
-		margin: 0;
-		padding: 0;
-	}
 
 	body{
 		display: flex;
@@ -310,6 +306,7 @@ section{
 		width: auto;
 		margin: 0;
 		flex-direction: column;
+		height: auto;
 		overflow-x: hidden;
 		
 	}
@@ -321,7 +318,6 @@ section{
 	#interface{
 		width: 100%;
 		font-size: 17px;
-		overflow-x: hidden;
 	}
 
 	.cabecalho,#secao-a,#saiba-mais, #secao-c{
@@ -330,7 +326,6 @@ section{
 		text-align: center;
 		justify-content: center;
 		align-items: center;
-		overflow-x: hidden;
 	}
 
 	.cabecalho{
