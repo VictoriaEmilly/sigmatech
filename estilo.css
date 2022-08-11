@@ -133,10 +133,10 @@ section{
 
 #saiba-mais li {
    	display: inline-block;
-    	margin: 20px;  
+    margin: 20px;  
    	color: rgba(0,0,0,.8);
-    	background-color: #ffffff;  
-    	padding-bottom: 30px;
+    background-color: #ffffff;  
+    padding-bottom: 30px;
 }
 
 #saiba-mais img{
@@ -154,10 +154,13 @@ section{
 }
 
 #saiba-mais li p{
-	width: 240px;
+	width: 324px;
 	padding: 20px 35px;
 	text-indent: 0px;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #secao-c{
