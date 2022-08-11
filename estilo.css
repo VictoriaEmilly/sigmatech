@@ -38,17 +38,16 @@ h2{
 	opacity: 0.8;
 	height: 35%;
 	background-size: cover;
+	color: #ffffff;
 }
 
 .cabecalho h1{
 	padding-top: 50px;
 	padding-bottom: 15px;
 	font-size: 2em;
-	color: #ffffff;
 }
 
 .cabecalho p{
-	color: #ffffff;
 	text-align: center;
 	width: 80%;
 	padding-bottom: 30px;
@@ -105,15 +104,7 @@ section{
 	padding-top: 30px;
 }
 
-#secao-a .esquerda{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 40%;
-	text-align: left;
-}
-
-#secao-a .direita{
+#secao-a .esquerda, #secao-a .direita{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -198,21 +189,20 @@ section{
 	padding-top: 8%;
 }
 
-.contato{
-	color: #ffffff;
-	vertical-align: top;
-	background-color: #4682B4;
+.contato, .sobre{
+	text-align: center;
 	width: 50%;
 	padding: 3% 5%;
-	text-align: center;
+	color: #ffffff;
 }
 
-.sobre{
-	text-align: center;
-	color: #ffffff;
+.contato{
+	vertical-align: top;
+	background-color: #4682B4;
+}
+
+.sobre{	
 	background-color: #606060;
-	width: 50%;
-	padding: 3% 5%;
 }
 
 .rodape{
@@ -223,7 +213,6 @@ section{
 	padding-top: 30px;
 	padding-bottom: 10px;
 	height: auto;
-	background-size: cover;
 }
 
 .rodape p{
@@ -261,7 +250,6 @@ section{
 
 	
 	#secao-b{
-		background-color: #606060;
 		padding-top: 10px 0px;
 		display: flex;
 		flex-direction: row;
@@ -294,8 +282,6 @@ section{
 	#secao-c{
 		padding: 30px 10px;	
 	}
-
-
 }
 
 @media (min-width:320px) and (max-width:600px){
@@ -353,7 +339,6 @@ section{
 		font-size: 0.9em;
 	}
 	
-
 	#secao-a, #secao-c{
 		padding: 10% 15%;
 	}
