@@ -6,7 +6,9 @@
 	list-style: none;
 	box-sizing: border-box;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: #ffffff;
 	font-family: Arial, sans-serif;
