@@ -6,6 +6,7 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+
 html{
 	scroll-behavior: smooth;
 }
@@ -38,7 +39,7 @@ h2{
 	background: #1C1C1C;
 	padding: 50px 20px 80px 20px;
 	background-image: url(https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg);
-    background-position: top;
+  background-position: top;
 	opacity: 0.8;
 	height: auto;
 	background-size: cover;
@@ -59,19 +60,19 @@ h2{
 }
 
 .btn {
-    	text-decoration: none;
-    	height: 50px;
-    	width: 150px;
-    	background: #1c1c1c;
-    	color: #ffffff;
-    	border: 1px solid #ffffff;
-    	font-size: 1em; 
-		margin-bottom: 20px;
+  text-decoration: none;
+  height: 50px;
+  width: 150px;
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 1em; 
+	margin-bottom: 20px;
 }
 
 .btn:hover {
-    background-color: #808080;
-    transition: 1s;
+  background-color: #808080;
+  transition: 1s;
 }
 
 p{
@@ -129,11 +130,11 @@ section{
 }
 
 #saiba-mais li {
-   	display: inline-block;
-    margin: 20px;  
-   	color: rgba(0,0,0,.8);
-    background-color: #ffffff;  
-    padding-bottom: 30px;
+  display: inline-block;
+  margin: 20px;  
+  color: rgba(0,0,0,.8);
+  background-color: #ffffff;  
+  padding-bottom: 30px;
 }
 
 #saiba-mais img{
