@@ -9,6 +9,7 @@
 html{
 	scroll-behavior: smooth;
 }
+
 body{
 	background-color: #ffffff;
 	font-family: Arial, sans-serif;
@@ -77,12 +78,6 @@ p{
 	text-align: justify;
 	text-indent: 0px;
 	font-size: 1em;
-}
-
-a{
-	color: #1E90FF;
-	text-decoration: none;
-	font-size: 0.8em;
 }
 
 section{
@@ -214,29 +209,35 @@ section{
 }
 
 .rodape{
-	display: block;
 	background-color: #000000;
 	color: #ffffff;
 	text-align: center;	
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding:20px 10px;
 	height: auto;
+	display: flex;
+	text-align: center;	
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .rodape p{
 	font-size: 0.8em;
-	text-align: right;
-	padding-right: 20px;
-	padding-top: 5px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 20px;
 }
-
+.rodape a{
+	color: #1E90FF;
+	text-decoration: none;
+	font-size: 0.9em;
+}
 .redes{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding-top: 5px;
-	gap: 2%;
+	gap: 1%;
 }
   
 @media screen and (max-width: 760px) {
@@ -416,8 +417,6 @@ section{
 		justify-items: center;
 		align-items: center;
 		flex-direction: column;
-		padding-top: 30px;
-		padding-bottom: 10px;
 		height: auto;
 		background-size: cover;
 		font-size: 0.9em;
@@ -425,8 +424,6 @@ section{
 	
 	.rodape p{
 		font-size: 0.9em;
-		text-align: right;
-		padding-bottom: 20px;
 	}
 
 }
